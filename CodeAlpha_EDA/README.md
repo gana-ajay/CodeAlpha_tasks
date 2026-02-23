@@ -49,4 +49,27 @@ This project performs comprehensive Exploratory Data Analysis (EDA) on sales dat
 - **Analysis Tools**: Jupyter Notebook
 - **Statistical Analysis**: Correlation studies
 
-## 📁 Repository Structure
+## 💡 Business Recommendations
+1. **Expand South region operations** - Highest sales region shows potential for growth
+2. **Investigate West region** - Lowest performance requires market analysis
+3. **Maintain balanced category focus** - Both Electronics and Furniture show strong profitability
+4. **Leverage sales-profit correlation** - Confident investment in sales growth will yield profit returns
+
+## 📝 How to Run
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the Jupyter notebook: `jupyter notebook eda_analysis.ipynb`
+
+## 📊 Sample Code Structure
+```python
+# Data Preview
+print(df.head())
+
+# Missing Values Check
+print(df.isnull().sum())
+
+# Regional Sales Analysis
+region_sales = df.groupby("Region")["Sales"].sum()
+
+# Correlation Analysis
+correlation = df["Sales"].corr(df["Profit"])
