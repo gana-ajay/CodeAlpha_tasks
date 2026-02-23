@@ -1,5 +1,5 @@
-## Code Alpha Internship Projects - Complete Portfolio
-# 📌 Overview
+# Code Alpha Internship Projects - Complete Portfolio
+## 📌 Overview
 This repository contains three data analysis projects completed during the Code Alpha internship program, demonstrating skills in Exploratory Data Analysis, Data Visualization, and Natural Language Processing.
 
 ## PROJECT 1: Sales Data Analysis (EDA)
