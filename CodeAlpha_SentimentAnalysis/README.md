@@ -32,10 +32,10 @@ def clean_text(text):
     text = str(text).lower()
     text = re.sub(r'[\^a-z\s]', '', text)
 
-    return text```
-
-###🧠 Sentiment Analysis Methodology
-Tool Used: TextBlob
+    return text
+```
+##🧠 Sentiment Analysis Methodology
+#Tool Used: TextBlob
 TextBlob's sentiment analysis uses a pre-trained model that returns:
 
 Polarity Score: Ranges from -1 (negative) to +1 (positive)
@@ -47,3 +47,5 @@ Polarity > 0 → Positive
 Polarity < 0 → Negative
 
 Polarity = 0 → Neutral
+
+
