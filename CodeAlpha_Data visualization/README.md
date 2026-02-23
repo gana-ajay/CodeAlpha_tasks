@@ -124,4 +124,4 @@ This Power BI dashboard provides comprehensive analysis of Amazon sales data acr
 - **Data Modeling** - Relationships and calculations
 - **Power Query** - Data transformation and cleaning
 
-## 📁 Dashboard Components
+
